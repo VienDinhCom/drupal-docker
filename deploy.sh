@@ -6,3 +6,5 @@ docker run --name $containerName -p 8080:80 -d \
   -v $(pwd)/sites:/var/www/html/sites \
   -v $(pwd)/themes:/var/www/html/themes \
   drupal
+
+echo "\nYour container's name is: $containerName\n"
