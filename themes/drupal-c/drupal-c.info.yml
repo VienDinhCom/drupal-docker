@@ -1,0 +1,9 @@
+name: Drupal C
+type: theme
+core: 8.x
+base theme: false
+
+component-libraries:
+  components:
+    paths:
+      - components
